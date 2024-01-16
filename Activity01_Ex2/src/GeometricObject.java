@@ -64,6 +64,7 @@ abstract class GeometricObject {
     }
 
     //none abstract method 
+    
     @Override
     public String toString() {
         return "GeometricObject{" + "color=" + color + ", filled=" + filled + '}';
