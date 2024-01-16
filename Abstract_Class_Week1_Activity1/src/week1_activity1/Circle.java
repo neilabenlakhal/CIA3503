@@ -1,20 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author nlakhal
- */
+package pkg202120_week1_activity1;
+
+
 public class Circle extends GeometricObject{
     
         private double radius;
 
     /**
      * Get the value of radius
-     *
-     * @return the value of radius
      */
     public double getRadius() {
         return radius;
@@ -22,8 +15,6 @@ public class Circle extends GeometricObject{
 
     /**
      * Set the value of radius
-     *
-     * @param radius new value of radius
      */
     public void setRadius(double radius) {
         this.radius = radius;
@@ -47,7 +38,6 @@ public class Circle extends GeometricObject{
         return 2*radius;
         
     }
-    
     @Override
     public double getArea(){
         return Math.PI*radius*radius;
@@ -59,9 +49,12 @@ public class Circle extends GeometricObject{
     }
 
 
-    
     public String toString() {
         return super.toString()+ "is a Circle{" + "radius=" + radius + '}';
+    }
+    
+
+
     }
     
     
@@ -70,4 +63,4 @@ public class Circle extends GeometricObject{
 
 
     
-}
+

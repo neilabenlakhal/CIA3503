@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 
 /**
  *
@@ -47,25 +44,26 @@ public class Circle extends GeometricObject{
         return 2*radius;
         
     }
-    
     @Override
     public double getArea(){
         return Math.PI*radius*radius;
         
     }
     
+    @Override
     public double getPerimeter(){
         return Math.PI*this.getDiameter();
     }
 
-
     
+//    public String toString() {
+//        return super.toString()+ "is a Circle{" + "radius=" + radius + '}';
+//    }
+//    
+    @Override
     public String toString() {
-        return super.toString()+ "is a Circle{" + "radius=" + radius + '}';
+        return "GeometricObject is a Circle{" + "radius="+this.radius  +  "color="  + this.getColor() + ", filled=" + this.isFilled() + '}';
     }
-    
-    
-    
     
 
 
