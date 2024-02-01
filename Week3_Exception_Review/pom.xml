@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mycompany</groupId>
-    <artifactId>Activity03_Ex2</artifactId>
+    <groupId>hct.ae</groupId>
+    <artifactId>Exception_Review</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <exec.mainClass>com.mycompany.activity03_ex2.Activity03_EX2</exec.mainClass>
+        <exec.mainClass>hct.ae.exception_review.Exception_Review</exec.mainClass>
     </properties>
-    <name>Activity03_Ex02</name>
+    <name>Week3_Exception_Review</name>
 </project>
