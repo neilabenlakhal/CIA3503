@@ -11,7 +11,7 @@ package com.mycompany.week5_generic_lists;
  */
 public class MyList<T> {
 
-    //Object[] tList;
+   
     T[] tList;  // An array of type T to store elements.
     int index; //An integer variable to keep track of the current position in the array.
 

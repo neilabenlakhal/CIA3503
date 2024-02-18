@@ -10,7 +10,7 @@ public class Program {
 
     private String title;
     private String accreditation;
-    private final ArrayList<Course> courses;
+    private  ArrayList<Course> courses;
 
        public Program(String title, String accreditation, ArrayList<Course> courses) {
         this.title = title;

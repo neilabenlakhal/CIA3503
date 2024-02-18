@@ -23,6 +23,8 @@ public class Driver {
         //No need to have different classe, one for each type.
         Printer<Integer> int2 = new Printer(20);
         Printer<String> string2 = new Printer("twenty");
+        Printer<Double> d = new Printer(2.3);
+        d.print();
         int2.print();
         string2.print();
         
