@@ -65,6 +65,12 @@ public class ProgramGUI extends javax.swing.JFrame {
 
         jLabelAccreditation.setText("Accreditation");
 
+        jTextProgTitle.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextProgTitleActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -213,7 +219,7 @@ public class ProgramGUI extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 6, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 471, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -356,6 +362,10 @@ public class ProgramGUI extends javax.swing.JFrame {
     private void jButtonShowAllProgramsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonShowAllProgramsActionPerformed
         loadAllPrograms();
     }//GEN-LAST:event_jButtonShowAllProgramsActionPerformed
+
+    private void jTextProgTitleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextProgTitleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextProgTitleActionPerformed
     private void loadAllPrograms(){
         //step 1:  set the column name of the jtable
         Vector colNameV=new Vector();

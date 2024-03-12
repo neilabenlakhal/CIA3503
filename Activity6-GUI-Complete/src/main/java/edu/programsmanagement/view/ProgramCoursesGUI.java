@@ -63,6 +63,12 @@ public class ProgramCoursesGUI extends javax.swing.JFrame {
 
         jLabelProgramSearch.setText("Program");
 
+        jTextProg.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextProgActionPerformed(evt);
+            }
+        });
+
         jButtonSearch.setText("Search");
         jButtonSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -267,6 +273,10 @@ public class ProgramCoursesGUI extends javax.swing.JFrame {
                 }
       
     }//GEN-LAST:event_jButtonSearchActionPerformed
+
+    private void jTextProgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextProgActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextProgActionPerformed
     
     /**
      * @param args the command line arguments

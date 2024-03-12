@@ -141,6 +141,11 @@ public class CourseGUI extends javax.swing.JFrame {
         jLabelProgram.setText("Program");
         jPanel1.add(jLabelProgram, new org.netbeans.lib.awtextra.AbsoluteConstraints(51, 106, -1, -1));
 
+        jComboBoxProgram.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxProgramActionPerformed(evt);
+            }
+        });
         jPanel1.add(jComboBoxProgram, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 103, 327, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 450, 150));
@@ -385,6 +390,10 @@ public class CourseGUI extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_jButtonAddCourseActionPerformed
+
+    private void jComboBoxProgramActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxProgramActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBoxProgramActionPerformed
 
     /**
      * @param args the command line arguments

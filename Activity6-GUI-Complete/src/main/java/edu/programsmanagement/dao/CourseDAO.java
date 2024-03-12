@@ -6,7 +6,6 @@ package edu.programsmanagement.dao;
 
 /**
  *
- * @author nbenayed
  */
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -26,7 +25,6 @@ public class CourseDAO {
         String sql="SELECT * FROM course WHERE code=?;";
         PreparedStatement pstmt=conn.prepareStatement(sql);
         pstmt.setString(1,code);
-        
         ResultSet rs=pstmt.executeQuery();
         Course course=null;
         if(rs.next()){
