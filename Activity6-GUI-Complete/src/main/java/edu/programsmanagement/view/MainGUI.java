@@ -10,7 +10,6 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author nbenayed
  */
 public class MainGUI extends javax.swing.JFrame {
 

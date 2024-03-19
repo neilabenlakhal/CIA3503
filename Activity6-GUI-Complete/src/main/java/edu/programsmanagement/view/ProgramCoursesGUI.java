@@ -15,7 +15,6 @@ import javax.swing.JTable;
 
 /**
  *
- * @author nbenayed
  */
 public class ProgramCoursesGUI extends javax.swing.JFrame {
     Program prog;
@@ -62,12 +61,6 @@ public class ProgramCoursesGUI extends javax.swing.JFrame {
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabelProgramSearch.setText("Program");
-
-        jTextProg.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextProgActionPerformed(evt);
-            }
-        });
 
         jButtonSearch.setText("Search");
         jButtonSearch.addActionListener(new java.awt.event.ActionListener() {
@@ -273,10 +266,6 @@ public class ProgramCoursesGUI extends javax.swing.JFrame {
                 }
       
     }//GEN-LAST:event_jButtonSearchActionPerformed
-
-    private void jTextProgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextProgActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextProgActionPerformed
     
     /**
      * @param args the command line arguments

@@ -25,6 +25,7 @@ public class CourseDAO {
         String sql="SELECT * FROM course WHERE code=?;";
         PreparedStatement pstmt=conn.prepareStatement(sql);
         pstmt.setString(1,code);
+        
         ResultSet rs=pstmt.executeQuery();
         Course course=null;
         if(rs.next()){

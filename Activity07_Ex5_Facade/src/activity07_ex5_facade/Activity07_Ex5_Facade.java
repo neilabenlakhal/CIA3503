@@ -5,7 +5,11 @@
 package activity07_ex5_facade;
 
 /**
- *
+ 
+ * The Facade pattern is about providing a simpler interface to a complex system (structural pattern), 
+ * while the Factory pattern is about creating objects without having to specify the exact class of the object
+ * (creational pattern).
+ * 
  * @author nlakhal
  */
 public class Activity07_Ex5_Facade {

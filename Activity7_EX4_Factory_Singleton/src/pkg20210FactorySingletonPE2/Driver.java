@@ -22,7 +22,10 @@ public class Driver {
         
   
         
-        Car myCar= (Car)vehicle.createVehicle("CAR",5);
+        Car myCar= (Car) vehicle.createVehicle("CAR",5);
+       
+         Vehicle myCar2=  vehicle.createVehicle("CAR",5);
+
         
         System.out.println("The number of wheels in the car is "+myCar.getWheels());
         

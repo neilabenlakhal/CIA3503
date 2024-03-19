@@ -159,9 +159,6 @@
         <Component class="javax.swing.JTextField" name="jTextProgCode">
         </Component>
         <Component class="javax.swing.JTextField" name="jTextProgTitle">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextProgTitleActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="jTextAccreditation">
         </Component>
