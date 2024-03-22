@@ -6,7 +6,6 @@ package pkg202120_week10_observerdp;
 
 /**
  *
- * @author nbenayed
  */
 import java.util.ArrayList;
 //Observerable class

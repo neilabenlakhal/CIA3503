@@ -6,7 +6,6 @@ package pkg202120_week10_observerdp;
 
 /**
  *
- * @author nbenayed
  */
 public interface Observer {
     public abstract void update();
