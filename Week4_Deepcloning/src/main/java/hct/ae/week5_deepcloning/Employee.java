@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package hct.ae.week5_deepcloning;
 
 /**
@@ -31,8 +28,8 @@ public class Employee implements Cloneable {
         
         @Override
 	 protected  Employee clone() throws CloneNotSupportedException  {  
-                                        Employee cloned = (Employee) super.clone();
-                                        cloned.setDepartment((Department)cloned.getDepartment().clone());
+                                        Employee cloned =  (Employee) super.clone();
+                                        cloned.department=department.clone();
 		return cloned; //all classes are child of the Object class in java
 	}
 
