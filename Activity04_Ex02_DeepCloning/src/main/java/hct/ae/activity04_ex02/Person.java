@@ -12,11 +12,20 @@ class Person implements Cloneable {
   private Name name;
   private Address address;
 
-  public Person(Name name, Address address) {
-    this.name = name;
-    this.address = address;
-  }
+  
+ public Person() {
+    }
 
+    public Person(Name name, Address address) {
+        this.name = name;
+        this.address = address;
+    }
+
+    public Person(String firstName, String lastName, String street, String city) {
+        this.name = new Name(firstName, lastName);
+        this.address = new Address(street, city);
+
+    }
   public Name getName() {
     return name;
   }
@@ -42,8 +51,8 @@ class Person implements Cloneable {
          @Override
     public Person clone() throws CloneNotSupportedException {
         Person clonedPerson = (Person) super.clone();
-        clonedPerson.name = (Name) name.clone();  // Name class must implement the cloneable class 
-        clonedPerson.address = (Address) address.clone(); // same applies here
+        clonedPerson.name =  name.clone();  // Name class must implement the cloneable class 
+        clonedPerson.address = address.clone(); // same applies here
         return clonedPerson;
     }
          
