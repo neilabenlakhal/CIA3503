@@ -17,13 +17,13 @@ public class PersonTest {
         Name name = new Name("Ali", "Mohammed");
         Address address = new Address("Rabdan Street", "Abu Dhabi");
         Person p1 = new Person(name, address);
-
-        
-        
-        
+       //method 2
+       // Person  p1 = new Person ("Ali", "Mohamed", "Rabdan Street", "Abu Dhabi"); 
+       // Person p2 = p1.clone();
+      
         Person p2 = (Person) p1.clone();
         
-      System.out.println(p1.toString());
+      System.out.println(p1.toString()); //or p1 
       System.out.println(p2.toString());
 
         System.out.println("Original object values:");
