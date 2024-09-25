@@ -24,7 +24,7 @@ public class Activity02_Ex2 {
         System.out.println(c1.toString());
         System.out.println("Perimeter: "+ c1.getPerimeter());
         System.out.println("Area: "+ c1.getArea());
-        
+     
     }
     
 }

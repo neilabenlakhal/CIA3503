@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package hct.ae.activity05_Ex01;
 
 /**
@@ -43,16 +40,17 @@ public class Employee extends Person {
    }
 
    public double calculateAnnualSalary() {
-      return 12 * salary;
+     
+       return 12 * salary;
    }
 
    
    
    @Override
    public String toString() {
+      
       return "Employee{" +
-              "name='" + name + '\'' +
-              ", birthdate=" + birthdate +
+              super.toString()+
               ", EID='" + EID + '\'' +
               ", salary=" + salary +
               ", annualSalary=" + calculateAnnualSalary() +

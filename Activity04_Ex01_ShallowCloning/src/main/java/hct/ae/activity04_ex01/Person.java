@@ -11,9 +11,9 @@ import hct.ae.activity04_ex01.Name;
  *
  * @author nlakhal
  */
-class Person implements Cloneable   { 
+class Person implements Cloneable   { //step 1
 
-    @Override
+    @Override //step 2 
     protected Person clone() throws CloneNotSupportedException {
         return (Person) super.clone(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }

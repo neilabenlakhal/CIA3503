@@ -89,7 +89,7 @@ public class EmployeeDAO {
     public int addNewEmployee(String empId, String name, String dept, double basicSalary)  throws SQLException {
         Connection conn = DBConnection.getConnection();
         String insertSQL = "INSERT INTO EMPLOYEE VALUES('"+empId+"','" +name+ "','"+ dept+"'," + basicSalary+");";
-        System.out.println(insertSQL);
+     //   System.out.println(insertSQL);
         Statement stmt = conn.createStatement();
         int insertStatus = stmt.executeUpdate(insertSQL);
         stmt.close();

@@ -8,7 +8,7 @@ package hct.ae.activity04_ex02;
  *
  * @author nlakhal
  */
-class Name  implements Cloneable  {
+class Name  implements Cloneable  { //step 1
   private String firstName;
   private String lastName;
 

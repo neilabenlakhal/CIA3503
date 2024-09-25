@@ -16,6 +16,8 @@ public class PersonTest {
         Person p1 = new Person(name, address);
 
         Person p2 = (Person) p1.clone();
+        
+      
 
         System.out.println("Original object values:");
         System.out.println("Name: " + p1.getName().getFirstName() + " " + p1.getName().getLastName());

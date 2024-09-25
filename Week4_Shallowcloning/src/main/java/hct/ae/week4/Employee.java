@@ -12,6 +12,8 @@ package hct.ae.week4;
 
 public class Employee implements Cloneable {
 
+    //Department d = new Department (122,"CIS");
+    // Employee e = new Employee(12, "Ali", d);
 	private int empoyeeId;
 	private String employeeName;
 	private Department department;

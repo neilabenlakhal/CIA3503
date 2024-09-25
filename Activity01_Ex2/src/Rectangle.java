@@ -3,7 +3,7 @@
  *
  * @author nlakhal
  */
-public class Rectangle extends GeometricObject {
+public class Rectangle extends GeometricObject implements Colorable {
 
     private double width;
     private double height;
@@ -70,6 +70,23 @@ public class Rectangle extends GeometricObject {
     @Override
     public String toString() {
         return super.toString() + "is a Rectangle{" + "width=" + width + ", height=" + height + '}';
+    }
+
+    /*
+    
+    Override the method howToColor() to return a message “Color all four sides” if the rectangle is not filled.
+    Otherwise, it returns a message “Color all four sides and inside the object”.
+     */
+    @Override
+    public String howtoColor() {
+       if ( isFilled())
+       {
+           return "Color all four sides and inside the object";
+       }
+       else 
+       {
+           return "Color all four sides";
+       }
     }
 
 }

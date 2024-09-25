@@ -8,12 +8,12 @@ package hct.ae.activity04_ex02;
  *
  * @author nlakhal
  */
-class Person implements Cloneable {
-  private Name name;
-  private Address address;
+class Person implements Cloneable { //step 1
 
-  
- public Person() {
+    private Name name;
+    private Address address;
+
+    public Person() {
     }
 
     public Person(Name name, Address address) {
@@ -26,35 +26,34 @@ class Person implements Cloneable {
         this.address = new Address(street, city);
 
     }
-  public Name getName() {
-    return name;
-  }
 
-  public void setName(Name name) {
-    this.name = name;
-  }
+    public Name getName() {
+        return name;
+    }
 
-  public Address getAddress() {
-    return address;
-  }
+    public void setName(Name name) {
+        this.name = name;
+    }
 
-  public void setAddress(Address address) {
-    this.address = address;
-  }
+    public Address getAddress() {
+        return address;
+    }
 
-  /*  For the deep  cloning project, the clone() method  and   
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    /*  For the deep  cloning project, the clone() method  and   
   create  new objects with their values. We can do this by directly returning this:*/
-
-  
-
-         
-         @Override
+    //Step 2 : override the clone() method from the Object class : deep cloning
+    @Override
     public Person clone() throws CloneNotSupportedException {
         Person clonedPerson = (Person) super.clone();
-        clonedPerson.name =  name.clone();  // Name class must implement the cloneable class 
+
+        clonedPerson.name = name.clone();  // Name class must implement the cloneable class 
         clonedPerson.address = address.clone(); // same applies here
+
         return clonedPerson;
     }
-         
-         
+
 }

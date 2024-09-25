@@ -7,9 +7,9 @@
  *
  * @author nlakhal
  */
-public class Circle extends GeometricObject{
-    
-        private double radius;
+public class Circle extends GeometricObject {
+
+    private double radius;
 
     /**
      * Get the value of radius
@@ -42,32 +42,24 @@ public class Circle extends GeometricObject{
         //initialize the attribute of the sub class
         this.radius = radius;
     }
-    
-    public double getDiameter(){
-        return 2*radius;
-        
-    }
-    
-    @Override
-    public double getArea(){
-        return Math.PI*radius*radius;
-        
-    }
-    
-    public double getPerimeter(){
-        return Math.PI*this.getDiameter();
+
+    public double getDiameter() {
+        return 2 * radius;
+
     }
 
+    @Override //annotation 
+    public double getArea() {
+        return Math.PI * radius * radius;
 
-    
+    }
+
+    public double getPerimeter() {
+        return Math.PI * this.getDiameter();
+    }
+
     public String toString() {
-        return super.toString()+ "is a Circle{" + "radius=" + radius + '}';
+        return super.toString() + "is a Circle{" + "radius=" + radius + '}';
     }
-    
-    
-    
-    
 
-
-    
 }

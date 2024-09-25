@@ -12,22 +12,24 @@ import java.util.ArrayList;
 public class Driver {
 
     public static void main(String[] args) {
-       // without generics 
+        // without generics 
         IntegerPrinter int1 = new IntegerPrinter(20);
         int1.print();
         StringPrinter string1 = new StringPrinter("twenty");
         string1.print();
+        DoublePrinter double1 = new DoublePrinter(1.2);
+        double1.print();
 
         // we can define generic types     
         // Tell Java I want a print for Double
         //No need to have different classe, one for each type.
         Printer<Integer> int2 = new Printer(20);
+     
         Printer<String> string2 = new Printer("twenty");
-        Printer<Double> d = new Printer(2.3);
-        d.print();
+        Printer<Double> double2 = new Printer(2.3);
+        double2.print();
         int2.print();
         string2.print();
-        
-          
+
     }
 }
