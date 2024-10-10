@@ -49,7 +49,7 @@ public class BankAccount {
         balance -= amount; //balance = balance - amount;
     } catch (InsufficientFundsException e) {
         // Handle the exception here, e.g., log the error or take appropriate action
-        System.err.println("Insufficient funds: " + e.getMessage());
+        System.out.println("Insufficient funds: " + e.getMessage());
     }
 }
 

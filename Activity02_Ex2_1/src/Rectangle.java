@@ -3,7 +3,7 @@
  *
  * @author nlakhal
  */
-public class Rectangle extends GeometricObject implements Colorable {
+public class Rectangle extends GeometricObject implements Colorable{
 
     private double width;
     private double height;
@@ -73,12 +73,12 @@ public class Rectangle extends GeometricObject implements Colorable {
     }
 
     @Override
-    public String howToColor() {
+    public void howToColor() {
         if (this.isFilled()) {
 
-            return "Color all four sides and inside the object";
+            System.out.println("Color all four sides and inside the object");
         } else {
-            return "Color all four sides";
+            System.out.println("Color all four sides");
         }
     }
 

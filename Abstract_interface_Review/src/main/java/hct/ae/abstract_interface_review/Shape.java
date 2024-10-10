@@ -108,7 +108,7 @@ Additionally, a class can only extend one abstract class, but it can implement m
  */
 //using abstract and interface at the same time
 //use extends keyword before implements
-class Rectangle2 extends Shape implements Printable, Printable2 {
+class Rectangle2 extends Shape implements Printable{
 
     double length;
     double width;

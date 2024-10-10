@@ -13,6 +13,7 @@ import javax.swing.JTable;
 
 /**
  *
+ * @author nbenayed
  */
 public class ProgramGUI extends javax.swing.JFrame {
 

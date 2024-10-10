@@ -132,7 +132,7 @@ public class EmpDBConsoleApp {
         
         //iterate over the empList and print 
         for (Employee employee : empList) {
-            System.out.println(employee);
+            System.out.println(employee); //to string
         }
     }
     

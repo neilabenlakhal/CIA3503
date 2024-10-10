@@ -6,6 +6,7 @@ package edu.programsmanagement.model;
 
 /**
  *
+ * @author nbenayed
  */
 public class Course {
 

@@ -15,6 +15,7 @@ import edu.programsmanagement.model.Program;
 
 /**
  *
+ * @author nbenayed
  */
 public class ProgramDAO {
     public Connection conn;

@@ -16,6 +16,7 @@ import javax.swing.JTable;
 
 /**
  *
+ * @author nbenayed
  */
 public class CourseGUI extends javax.swing.JFrame {
     String code;

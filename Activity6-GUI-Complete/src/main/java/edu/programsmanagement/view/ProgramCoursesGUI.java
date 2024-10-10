@@ -15,6 +15,7 @@ import javax.swing.JTable;
 
 /**
  *
+ * @author nbenayed
  */
 public class ProgramCoursesGUI extends javax.swing.JFrame {
     Program prog;
